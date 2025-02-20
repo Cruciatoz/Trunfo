@@ -1,0 +1,28 @@
+{
+    char estado_1[20];
+    int codigo_da_carta_1;
+    char nome_da_cidade_1[50];
+    int populacao_1;
+    float area_em_km²_1;
+    float Pib_1;
+    int pontos_turisticos_1;
+
+    printf("\t \t \t \t \t \t------- XADREZ ------- \n");
+    printf ("carta 1: \n");
+    printf ("estado: ");
+    scanf ("%s", &estado_1);
+    printf("codigo da carta: ");
+    scanf("%d", &codigo_da_carta_1);
+    printf("nome da cidade: ");
+    scanf("%s", &nome_da_cidade_1);
+    printf("populacao ");
+    scanf("%d", &populacao_1);
+    printf("area em km²");
+    scanf("%f", &area_em_km²_1);
+    printf("Pib");
+    scanf("%f", &Pib_1);
+    printf("pontos turisticos");
+    scanf("%d", &pontos_turisticos_1);
+
+
+}
