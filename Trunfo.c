@@ -13,51 +13,51 @@ int main(){
     // Solicitando as informações das cartas do usuario.
 
     printf("\t \t \t \t \t \t------- SUPER TRUNFO ------- \n"); // Titulo do começo.
-    printf ("\n ---Carta 1---: \n");
+    printf ("\n---Carta 1--- \n");
 
-    printf ("Estado:    ***Atencao: Digite o Estado sem acento e sem espaços, substituindo o espaco por _ ***\n");
+    printf ("=== Atencao: Digite o Estado sem acento e sem espaços, substituindo o espaco por _ === \nEstado: ");
     scanf ("%s", &estado_1);
 
-    printf("Codigo da carta: \n");
+    printf("Codigo da carta: ");
     scanf("%d", &codigo_da_carta_1);
 
-    printf("Nome da cidade:   ***Atencao: Digite a Cidade sem acento e sem espaços, substituindo o espaco por _ *** \n");
+    printf("=== Atencao: Digite a Cidade sem acento e sem espaços, substituindo o espaco por _ === \nNome da cidade: ");
     scanf("%s", &nome_da_cidade_1);
 
-    printf("Populacao: \n");
+    printf("Populacao: ");
     scanf("%d", &populacao_1);
 
-    printf("Area em km²: \n");
+    printf("Area em km²: ");
     scanf("%f", &area_em_km²_1);
 
-    printf("Pib: \n");
+    printf("Pib: ");
     scanf("%f", &Pib_1);
 
-    printf("Pontos turisticos: \n");
+    printf("Pontos turisticos: ");
     scanf("%d", &pontos_turisticos_1); 
 
 
     printf ("\n --- Carta 2 ---: \n");
 
-    printf ("Estado:  ***Atencao: Digite o Estado sem acento e sem espaços, substituindo o espaco por _ ***\n");
+    printf ("=== Atencao: Digite o Estado sem acento e sem espaços, substituindo o espaco por _ ===\nEstado:  ");
     scanf ("%s", &Estado_2);
 
-    printf("Codigo da carta: \n");
+    printf("Codigo da carta: ");
     scanf("%d", &codigo_da_carta_2);
 
-    printf("Nome da cidade:  ***Atencao: Digite a Cidade sem acento e sem espaços, substituindo o espaco por _ ***\n");
+    printf("=== Atencao: Digite a Cidade sem acento e sem espaços, substituindo o espaco por _ ===\nNome da cidade:  ");
     scanf("%s", &nome_da_cidade_2);
 
-    printf("Populacao: \n");
+    printf("Populacao: ");
     scanf("%d", &populacao_2);
 
-    printf("Area em km²: \n");
+    printf("Area em km²: ");
     scanf("%f", &area_em_km²_2);
 
-    printf("Pib: \n");
+    printf("Pib: ");
     scanf("%f", &Pib_2);
 
-    printf("Pontos turisticos: \n");
+    printf("Pontos turisticos: ");
     scanf("%d", &pontos_turisticos_2);
 
     // Exibir as informações digitadas
@@ -69,8 +69,8 @@ int main(){
     printf("Codigo da carta: %d\n", codigo_da_carta_1);
     printf("Nome da cidade: %s\n", nome_da_cidade_1);
     printf("Populacao: %d\n", populacao_1);
-    printf("Pib: %d\n", Pib_1);
-    printf("Area em Km²: %d\n", area_em_km²_1);
+    printf("Pib: %.0f\n", Pib_1);
+    printf("Area em Km²: %.0f\n", area_em_km²_1);
     printf("Pontos Turisticos: %d\n", pontos_turisticos_1);
 
     printf("\n --- Carta 2 ---: \n");
@@ -78,8 +78,8 @@ int main(){
     printf("Codigo da carta: %d\n", codigo_da_carta_2);
     printf("Nome da cidade: %s\n", nome_da_cidade_2);
     printf("Populacao: %d\n", populacao_2);
-    printf("Pib: %d\n", Pib_2);
-    printf("Area em Km²: %d\n", area_em_km²_2);
+    printf("Pib: %.0f\n", Pib_2);
+    printf("Area em Km²: %.0f\n", area_em_km²_2);
     printf("Pontos Turisticos: %d\n", pontos_turisticos_2);
 
     return 0;
